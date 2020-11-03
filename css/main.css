@@ -55,7 +55,7 @@ header > .container > .nav_bar > nav > ul > li > a {
 }
 
 .header_wrap {
-  background: url("/images/head_bg.jpg") no-repeat center top / cover;
+  background: url("images\head_bg.jpg") no-repeat center top / cover;
 }
 
 .header_wrap > .container {
@@ -228,7 +228,7 @@ header > .container > .nav_bar > nav > ul > li > a {
 }
 
 #contact_us {
-  background: url("/images/footer_bg.jpg") no-repeat center top / cover;
+  background: url("images\footer_bg.jpg") no-repeat center top / cover;
 }
 
 footer > .container {
