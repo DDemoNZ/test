@@ -1,0 +1,270 @@
+body {
+ margin: 0 auto 0;
+ font-family: Arial, sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+.container {
+  width: 970px;
+  display: flex;
+  margin: 0 auto 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+
+header > .container {
+  padding-bottom: 0px;
+}
+
+header > .container > .nav_bar > img {
+  padding-top: 10px;
+  height: 30px;
+  width: 80px;
+}
+
+.nav_bar {
+  position: absolute;
+  width: 870px;
+  padding-top: 50px;
+}
+
+header > .container > .nav_bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > .container > .nav_bar > nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > .container > .nav_bar > nav > ul > li {
+  padding-left: 40px;
+}
+
+header > .container > .nav_bar > nav > ul > li > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header_wrap {
+  background: url("/images/head_bg.jpg") no-repeat center top / cover;
+}
+
+.header_wrap > .container {
+  padding-top: 280px;
+  padding-bottom: 160px;
+}
+
+.header_wrap > .container > .titles {
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+} 
+
+.first_title {
+  font-size: 40px;
+}
+
+.titles > h1 {
+  font-size: 75px;
+  margin: 0 auto 0;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: orange;
+  padding: 20px 40px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.title {
+  text-align: center;
+}
+
+.title > h2 {
+  font-size: 45px;
+  /* line-height: 75px; */
+  text-transform: uppercase;
+  margin: 0 auto 0;
+  margin-bottom: 20px;
+  padding-top: 120px;
+}
+
+.title > p {
+  color: #3f3f3f;
+  font-size: 16px;  
+  margin-bottom: 80px;
+}
+
+.service_items {
+  display: flex;
+  justify-content: center;
+}
+
+.service_item {
+  text-align: center;
+  width: 33%;
+}
+
+.service_item > p {
+  text-align: justify;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#portfolio {
+  background: #f7f7f7;
+}
+
+.portfolio_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.portfolio_item {
+  width: 32%;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding-top: 5px;
+}
+
+.portfolio_item > p {
+  margin-top: 5px;
+}
+
+.portfolio_item > h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about_item {
+  width: 59%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.right {
+  float: right;
+  text-align: left;
+}
+
+.left {
+  float: left;
+  text-align: right;
+}
+
+.center {
+  float: right;
+}
+
+.about_item > article {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about_item > article > h3 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#team {
+  background-color: #f7f7f7;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.person > .links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.person >  h3, p {
+  margin-top: 0;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+
+.person > .links > p {
+  margin: 0 auto 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: lightslategrey;
+  /* padding: 5px 5px; */
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+#technologies > .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#contact_us {
+  background: url("/images/footer_bg.jpg") no-repeat center top / cover;
+}
+
+footer > .container {
+  padding-bottom: 0px;
+}
+
+.form_row > form {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.form_row > form > .info {
+  width: 50%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.form_row > form > .info > input {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.form_row > form > textarea {
+  width: 50%;
+  width: 450px;
+  height: 171px;
+} 
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+
